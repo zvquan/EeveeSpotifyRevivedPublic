@@ -8,7 +8,7 @@ env:
 
 jobs:
   build:
-   runs-on: ubuntu-latest
+   runs-on: macos-latest
    env:
      THEOS: ${{ github.workspace }}/theos
    steps:
